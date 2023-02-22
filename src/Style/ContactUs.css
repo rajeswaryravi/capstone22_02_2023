@@ -1,0 +1,41 @@
+h1{
+ color:#9e28cf;
+}
+.get-in-touch-container{
+    margin-top: 50px;
+    border:1px solid #9e28cf;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-content h3{
+    color: #9e28cf;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+.form-image img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+form{
+    padding: 10px 0px 20px 30px;
+}
+.form-group{
+    width: 250px;
+}
+.form-group input,textarea{
+    min-width: 400px;
+}
+.contact-button{
+   margin: 30px 30px 10px 150px;
+   background-color: #b760e9 !important;
+   font-size: 14px;
+}
+.successMsgSubmit{
+    color: #680e91d1;
+} 
+.buttonClose{
+    background-color: #680e91d1 !important;
+}

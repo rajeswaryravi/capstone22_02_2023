@@ -1,0 +1,32 @@
+.banner{
+    height: 100px;
+}
+.bannerLink{
+height: 100px;
+background-color: #8011a5;
+}
+.bannerButton{
+    width: 250px;
+    margin-top: 31px !important;
+    height: 55px;
+    clip-path: polygon(15% 0%, 92% 0%, 75% 262%, 9% 97%);
+}
+.bannerBottomLink{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.carouselItem{
+    position: relative;
+}
+.applyBtn{
+position: absolute;
+top: 305px;
+left: 190px;
+}
+.ui.inverted.teal.segment {
+    padding: 0.5em 1em !important;
+}
+.jobButton{
+    padding: 5px 30px !important;
+}

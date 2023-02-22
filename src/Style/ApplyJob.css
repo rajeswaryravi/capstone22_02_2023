@@ -1,0 +1,124 @@
+  * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-box{
+         
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+          
+        }
+        .container-applyjob {
+            padding: 15px;
+            background: #dfc7f9;
+        }
+        .container-apply {
+            width: 80%;
+            margin: 50px auto;
+        }
+        .container-apply h2{
+            text-align: center;
+            color: #8309b5;
+            font-weight: 600;
+        }
+        .contact-box {
+            background: #fff;
+        }
+
+        .contact-left {
+           padding: 40px 60px;
+        }
+
+        .contact-right {
+            padding: 40px;
+            background: #1c00b5;
+            color: #fff;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            margin-bottom: 40px;
+        }
+
+        .input-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .input-row .input-group {
+            flex-basis: 45%;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+      .input-group label {
+            margin-bottom: 5px;
+            display: block;
+            color: #8847c3;;
+        }
+
+        button {
+            background: #8847c3;;
+            width: 100px;
+            border: none;
+            color: #fff;
+            outline: none;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+            box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+        }
+
+        .contact-left h3 {
+            color: #8847c3;
+            font-weight: 550;
+            margin-bottom: 30px;
+        }
+
+        tr td:first-child {
+            padding-right: 20px;
+        }
+
+        tr td {
+            padding-top: 20px;
+        }
+        .required:after {
+            content:" *";
+            color: red;
+          }
+ .text-success-apply{
+     color: darkgreen;
+     margin-top: 10px;
+ }  
+ .text-danger-apply{
+    color: red;
+    margin-top: 10px;
+}   
+.buttonApply{
+    margin-top: 30px;
+}     
+.successMsg{
+    color: #680e91d1;
+} 
+.buttonCloseApply{
+    background-color: #680e91d1 !important;
+}
